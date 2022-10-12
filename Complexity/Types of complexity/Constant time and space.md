@@ -1,0 +1,1 @@
+Constant time or space will always have the same [[Complexity|complexity]] regardless of the size of the inputs.

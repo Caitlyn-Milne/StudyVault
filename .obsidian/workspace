@@ -1,0 +1,145 @@
+{
+  "main": {
+    "id": "d7ef804e0792fa6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "be1ca0dfffefd96e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Languages/Kotlin.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5594d7b2e089e71e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6317826b48d0f6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a1aa9cc30ae2ad1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "de8ec801a1bb6e87",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28e06246549c7706",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6d02cef269dae6f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bb9b69d8a06a480",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1328d9b2f9199821",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Languages/Kotlin.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "abda7249f0690bf8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Languages/Kotlin.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "436c6f28b07ce85a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f9477e0c2dc1fe48",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Languages/Kotlin.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "be1ca0dfffefd96e",
+  "lastOpenFiles": [
+    "Languages/Language Features/Kotlin Inline.md",
+    "Languages/Language Features/For and Foreach loops.md",
+    "Datastructures/Arrays.md",
+    "Datastructures/Trees.md",
+    "Datastructures/Bineary Search Trees.md",
+    "Datastructures/Heap (Datastructure).md",
+    "Datastructures/Priority Queue.md",
+    "Datastructures/Queue.md",
+    "Datastructures/Stack (Datastructure).md",
+    "Datastructures/Subarray.md"
+  ]
+}

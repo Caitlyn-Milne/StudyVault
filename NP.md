@@ -1,0 +1,1 @@
+NP is the set of all [[Decision problems]] (questions with a yes or no answer) for which the 'yes' can be vertified in [[Polynomial time and space]] time where n is the problem size and k is a constant. Polynomial time is sometimes used the definition of fast or quickly

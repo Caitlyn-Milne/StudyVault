@@ -1,0 +1,1 @@
+Linear time or space will grow in [[Complexity|complexity]] linearly as the size of the input increases.
