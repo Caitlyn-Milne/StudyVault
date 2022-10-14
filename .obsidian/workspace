@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Languages/Kotlin.md",
-            "mode": "source",
+            "file": "Graph Theory/Breath-first Search.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/Kotlin.md",
+                "file": "Graph Theory/Breath-first Search.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/Kotlin.md",
+                "file": "Graph Theory/Breath-first Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/Kotlin.md"
+                "file": "Graph Theory/Breath-first Search.md"
               }
             }
           }
@@ -131,15 +131,15 @@
   },
   "active": "be1ca0dfffefd96e",
   "lastOpenFiles": [
-    "Languages/Language Features/Kotlin Inline.md",
-    "Languages/Language Features/For and Foreach loops.md",
-    "Datastructures/Arrays.md",
-    "Datastructures/Trees.md",
-    "Datastructures/Bineary Search Trees.md",
-    "Datastructures/Heap (Datastructure).md",
-    "Datastructures/Priority Queue.md",
-    "Datastructures/Queue.md",
-    "Datastructures/Stack (Datastructure).md",
-    "Datastructures/Subarray.md"
+    "Graph Theory/Depth-first search.md",
+    "Graph Theory/Breath-first Search.md",
+    "Call stack.md",
+    "figure 1.png",
+    "figure 2.png",
+    "Iteration.md",
+    "Matrix.md",
+    "Graph Theory/Graphs.md",
+    "Graph Theory/Untitled.md",
+    "Languages/Language Features/For and Foreach loops.md"
   ]
 }
