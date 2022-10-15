@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "d7ef804e0792fa6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "789d58763392d617",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be1ca0dfffefd96e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Graph Theory/Breath-first Search.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f0819cdee4ad441",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Algorithms and Approaches/Dynamic programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0cbcd474c3195ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f5ba3171109def6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a2155fe036fa44f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datastructures/List.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5594d7b2e089e71e",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6317826b48d0f6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a1aa9cc30ae2ad1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "de8ec801a1bb6e87",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28e06246549c7706",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6d02cef269dae6f3",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bb9b69d8a06a480",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1328d9b2f9199821",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "abda7249f0690bf8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "436c6f28b07ce85a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "f9477e0c2dc1fe48",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "3f5ba3171109def6",
+  "lastOpenFiles": [
+    "Common Algorithms and Approaches/Sorting Algorithms/Insertion Sort.md",
+    "Common Algorithms and Approaches/Sorting Algorithms/Merge Sort.md",
+    "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
+    "Common Algorithms and Approaches/Sorting Algorithms/Sorting Algorithms.md",
+    "Common Algorithms and Approaches/Sorting Algorithms/TimSort.md",
+    "Higher-order functions.md",
+    "Divide and conquer algorithm.md",
+    "Complexity/Complexity.md",
+    "Datastructures/List.md",
+    "Common Algorithms and Approaches/Dynamic programming.md"
+  ]
+}
