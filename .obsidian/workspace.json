@@ -13,8 +13,56 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Graph Theory/Breath-first Search.md",
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7c600a38c31a76e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Algorithms and Approaches/Sliding window.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6418f94c24f72ae5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Common Algorithms and Approaches/Graph Theory/Depth-first search.md",
                 "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6fe0af362287513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Complexity/Does P = NP.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5215dd1a50f1548a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Complexity/Does P = NP.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -49,10 +97,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
-                "mode": "preview",
+                "file": "Recursion.md",
+                "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "a847e095d0cfafdd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -97,7 +153,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Does ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +170,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -134,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
+                "file": "Complexity/Does P = NP.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
+                "file": "Complexity/Does P = NP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md"
+                "file": "Complexity/Does P = NP.md"
               }
             }
           }
@@ -186,20 +243,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "3f5ba3171109def6",
+  "active": "f6fe0af362287513",
   "lastOpenFiles": [
-    "Common Algorithms and Approaches/Sorting Algorithms/Insertion Sort.md",
-    "Common Algorithms and Approaches/Sorting Algorithms/Merge Sort.md",
-    "Common Algorithms and Approaches/Sorting Algorithms/Quick Sort.md",
-    "Common Algorithms and Approaches/Sorting Algorithms/Sorting Algorithms.md",
-    "Common Algorithms and Approaches/Sorting Algorithms/TimSort.md",
-    "Higher-order functions.md",
-    "Divide and conquer algorithm.md",
-    "Complexity/Complexity.md",
-    "Datastructures/List.md",
-    "Common Algorithms and Approaches/Dynamic programming.md"
+    "Common Algorithms and Approaches/Graph Theory/Topological Ordering.md",
+    "Common Algorithms and Approaches/Graph Theory/Cycle (Graphs).md",
+    "Common Algorithms and Approaches/Graph Theory/Depth-first search.md",
+    "Common Algorithms and Approaches/Graph Theory/Directed Graph.md",
+    "Common Algorithms and Approaches/Graph Theory/Graphs.md",
+    "Common Algorithms and Approaches/Graph Theory/Cyclic and Acyclic graphs.md",
+    "Common Algorithms and Approaches/Graph Theory/Breath-first Search.md",
+    "Images/Different complexities graphed.png",
+    "Images/graph 4.png",
+    "Images/graph 3.png"
   ]
 }

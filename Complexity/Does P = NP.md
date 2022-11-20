@@ -1,0 +1,1 @@
+P vs NP is known as the most difficult problem in computer science. If the set of [[NP]] problems turned out to be [[P]] alot more problems would be able to be solved within computing and maths. 

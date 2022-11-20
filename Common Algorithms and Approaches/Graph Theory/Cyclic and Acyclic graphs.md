@@ -1,0 +1,1 @@
+Cyclic [[Graphs|graphs]] contain a cycle, and acyclic graphs are graphs that do not contain a [[Cycle (Graphs)|cycle]]. 
