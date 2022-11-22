@@ -25,3 +25,95 @@ val pop = stack.removeLast() //pop:4 stack:[2,3]
 val peek = stack.last() //peek: 3 stack:[2,3]
 ```
 
+## Implementations
+### Array Version
+```kt
+public class ArrayStack<T> {
+    
+    public var Capacity : Int = 4
+    	get() = field
+    	set(value) {
+            field = value
+        	_array = Array<Any?>(field) { _array.getOrNull(it) }
+        }
+        
+   public var count : Int = 0
+    	get() = _top
+        
+    private var _top = 0
+    private var _array = Array<Any?>(Capacity) { null }
+    
+    fun push(value : T){
+        if(_top >= _array.size){
+            Capacity *= 2
+        }
+        _array[_top++] = value
+    }
+    
+    fun pop() : T{
+        if(_top <= 0) throw Exception("cannot remove from an empty stack")
+        var result = _array[--_top] as T
+        _array[_top] = null //you do actually need to set it to null sso the garbage collector can clean up
+        return result
+    }
+    
+    fun peek() : T {
+        return _array[_top - 1] as T
+    }
+}
+```
+[kotlin playgound](https://pl.kotl.in/SIDuQSR85?theme=darcula)
+#### Time Complexity 
+Insertion O(1) normally, but O(n) if reallocation is needed
+Peek O(1) 
+Pop O(1)
+Count O(1)
+
+### Linked List Version
+```kt
+private data class MyStackNode<T>(val value : T, val next : MyStackNode<T>?){}
+public class MyStack<T> {
+    
+    private var head : MyStackNode<T>? = null
+    public var count : Int = 0
+    	get private set
+    
+    fun push(value : T){
+        head = MyStackNode<T>(value, head)
+        count++
+    }
+    
+    fun pop() : T{
+        if(head == null){
+            throw Exception("cannot remove from an empty stack")
+        }
+        var result = head!!.value
+        head = head!!.next
+        count--
+        return result
+    }
+    
+    fun peek() : T{
+        return head!!.value
+    }
+    
+}
+```
+[kotlin playground](https://pl.kotl.in/JeioxG6wZ?theme=darcula)
+#### Time Complexity 
+Insertion O(1)
+Peek O(1) 
+Pop O(1)
+Count O(1)
+
+### Array Vs LinkedList
+
+This array implimentation has a inferior worse case time complexity for insertion. This is due to situation when capacity is exceeded. Here it must reallocate the array into a new array with more size.
+
+The array implimentation can be developed to include indexing at positons along the stack with in O(1). Trying to add simular functionality to the linked list implimentation would require O(n)
+
+The linked list implimentation creates new nodes for every item added to the stack. In garbage collected lanugages, this can cause an increase of trash needed to be collected by the garbage collector.  
+
+The array implimentation has its values next to each other in memory due to how arrays work, allowing for less cache misses in low level languages like C++ when iterating over or pulling multiple items from the stack. (In the above example in kotlin, this is probably less applicable)
+
+
