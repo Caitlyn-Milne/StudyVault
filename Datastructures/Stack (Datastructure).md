@@ -30,7 +30,7 @@ val peek = stack.last() //peek: 3 stack:[2,3]
 ```kt
 public class ArrayStack<T> {
     
-    public var Capacity : Int = 4
+    public var capacity : Int = 4
     	get() = field
     	set(value) {
             field = value
@@ -51,9 +51,9 @@ public class ArrayStack<T> {
     }
     
     fun pop() : T{
-        if(_top <= 0) throw Exception("cannot remove from an empty stack")
+        if(_top <= 0) throw Exception("cannot pop from an empty stack")
         var result = _array[--_top] as T
-        _array[_top] = null //you do actually need to set it to null sso the garbage collector can clean up
+        _array[_top] = null //you do actually need to set it to null so the garbage collector can clean up
         return result
     }
     
@@ -70,33 +70,33 @@ Pop O(1)
 Count O(1)
 
 ### Linked List Version
+Below is  a [[Linked List|linked list]] implimentation of a stack.
 ```kt
 private data class MyStackNode<T>(val value : T, val next : MyStackNode<T>?){}
 public class MyStack<T> {
     
-    private var head : MyStackNode<T>? = null
+    private var _head : MyStackNode<T>? = null
     public var count : Int = 0
     	get private set
     
     fun push(value : T){
-        head = MyStackNode<T>(value, head)
+        _head = MyStackNode<T>(value, _head)
         count++
     }
     
     fun pop() : T{
-        if(head == null){
-            throw Exception("cannot remove from an empty stack")
+        if(_head == null){
+            throw Exception("cannot pop from an empty stack")
         }
-        var result = head!!.value
-        head = head!!.next
+        var result = _head!!.value
+        _head = _head!!.next
         count--
         return result
     }
     
     fun peek() : T{
-        return head!!.value
+        return _head!!.value
     }
-    
 }
 ```
 [kotlin playground](https://pl.kotl.in/JeioxG6wZ?theme=darcula)

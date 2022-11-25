@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "d7d4840bce3b740a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Datastructures/Stack (Datastructure).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5215dd1a50f1548a",
             "type": "leaf",
             "state": {
@@ -124,7 +136,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -242,17 +254,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f6fe0af362287513",
+  "active": "d7d4840bce3b740a",
   "lastOpenFiles": [
+    "Datastructures/Queue.md",
+    "Datastructures/Stack (Datastructure).md",
+    "Datastructures/Linked List.md",
+    "Datastructures/Subarray.md",
+    "Datastructures/Subsequence.md",
+    "ReadMe CutelynImageApp.md",
     "Common Algorithms and Approaches/Graph Theory/Topological Ordering.md",
     "Common Algorithms and Approaches/Graph Theory/Directed Graph.md",
     "Common Algorithms and Approaches/Graph Theory/Depth-first search.md",
-    "Common Algorithms and Approaches/Graph Theory/Cycle (Graphs).md",
-    "Common Algorithms and Approaches/Graph Theory/Cyclic and Acyclic graphs.md",
-    "Common Algorithms and Approaches/Graph Theory/Breath-first Search.md",
-    "Images/figure 2.png",
-    "Images/figure 1.png",
-    "Datastructures/Stack (Datastructure).md",
-    "Datastructures/Queue.md"
+    "Common Algorithms and Approaches/Graph Theory/Cycle (Graphs).md"
   ]
 }
