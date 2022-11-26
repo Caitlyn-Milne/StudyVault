@@ -1,0 +1,1 @@
+C++ is a [[Programming Languages]] that is generally used to create high performance applications. C++ is directly compiled to the [[Assembly Language|assembly language]] of the target platform, unlike C# that is compiled to IL code.
