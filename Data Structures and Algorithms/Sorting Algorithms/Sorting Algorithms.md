@@ -15,7 +15,7 @@ In most languages you don't have to worry about implimentation details, because 
 
 ## In [[Kotlin]]
 Kotlin uses Javas implimentation of a sorting algorithm which is [[TimSort]]. 
-To sort an [[Arrays|Array]] or [[List]] in kotlin you simply call sort, which sorts in place. 
+To sort an [[Arrays|Array]] or [[Dynamic List]] in kotlin you simply call sort, which sorts in place. 
 ```kt
 val array = intArrayOf(3,1,5,2,3)
 array.sort() //array = [1,2,3,3,5]
