@@ -4,6 +4,8 @@ Because of the constains of a tree, trees can't have cycles.
 
 Each child of a given node, makes a tree of its own, this is called a subtree, because of this, logic that can be applied to a tree, can also be applied to its child elements or subtrees. 
 
+Also intrestingly there are n - 1 edges in a tree with with n nodes.
+
 ![[Tree 1.png]]
 
 ## Key terminology
