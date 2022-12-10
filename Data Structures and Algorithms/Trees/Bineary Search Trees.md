@@ -52,6 +52,8 @@ I have implimentented a deletion algorithm in the [[#Full example]] but I am not
 Time O(logn)
 Addition space O(1)
 
+## Getting the order
+An inorder traversal of a binary search tree returns a traversal in order.
 
 ## Full example
 ```kt
