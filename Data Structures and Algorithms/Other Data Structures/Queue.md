@@ -14,7 +14,7 @@ var dequeue = queue.Dequeue(); //dequeue: 2 queue:[3,4]
 var peek = queue.Peek(); //peek: 3 queue:[3,4]
 ```
 ## In [[Kotlin]]
-[[Kotlin]] doesnt have a Queue but does have a ArrayDeque that can have items added or removed at either end. To get the same effect as a queue you can add and remove items from different ends.
+[[Kotlin]] does have a queue called `LinkedList` but it is recommended to use an ArrayDeque that can have items added or removed at either end. To get the same effect as a queue you can add and remove items from different ends.
 
 ```kt
 val queue = ArrayDeque<Int>()

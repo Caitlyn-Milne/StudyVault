@@ -14,8 +14,7 @@ var pop = stack.Pop(); //pop: 4 stack:[2,3]
 var peek = stack.Peek(); //peek: 3 stack:[2,3]
 ```
 ## In [[Kotlin]]
-[[Kotlin]] doesnt have a Stack but does have a ArrayDeque that can have items added or removed at either end. To get the same effect as a stack you can add and remove items from the same end
-
+[[Kotlin]] does have a Stack but it is recommended to use a ArrayDeque that can have items added or removed at either end. To get the same effect as a stack you can add and remove items from the same end.
 ```kt
 val stack = ArrayDeque<Int>()
 stack.addLast(2) //[2]
