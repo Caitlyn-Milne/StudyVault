@@ -1,5 +1,12 @@
 Quick Sort is a [[Sorting Algorithms|sorting algorithm]] that is also a [[Divide and conquer algorithm|divide and conquer algorithm]] it works by selecting a pivot element from the collection (commonly an [[Arrays|array]]) and partitioning the other elements into two sub arrays that it can then recursively do the same on.
 
+## The worst situation for quick sort
+The worst situation for quick sort is depending on how you are chosing the pivot to partition the collection. 
+
+If your always choosing the last element as a pivot and the collection is already sorted is one example. In this case when you run partition, the pivot already has all the smaller values on the left of it. This means the calls to quick sort will only of shrinked the 'unsorted' (of course we know it is sorted) segment of the collection by one. This effectively means we will call quick sort n number of times in this situation, and call partition n number of times. Partition has a time complexity of O(n) making quicksort's worst case time complexity of O(n<sup>2</sup>). 
+
+In this case the space complexity becomes O(n), as quicksort is a recursive algorithm, there are ways to mitigate this however. 
+
 ## Partition Algorithms
 
 ## Complexity
