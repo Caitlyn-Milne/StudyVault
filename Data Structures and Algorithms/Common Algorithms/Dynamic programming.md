@@ -28,9 +28,9 @@ However notice we calculate fib3 twice. In [[#Memoise|memoisation]] we can inste
  *The decision tree and the memo array the second time we see fib3*
 Now when we see fib3 a second time, we can just use the value from the previous time we calculated it. This turns our tree into more of a line, reducing our time complexity to O(n).
 
-Now to get the bottom up solution we can see how memo is being built up. We can fill our base cases first of all, fib2 and fib1 equal 1. Now notice for every index we look at the previous 2 numbers and add them together. 
+Now to get the bottom up solution we can see how memo is being built up. We can fill our base cases first of all, fib2 and fib1 equal 1. Now for every index we add previous 2 numbers together, and that becomes our result. 
 
-Great now we have elimated the need for recursion, but theres one more thing we can optimize, notice now that we are only looking at the previous 2 values, instead of storing a whole cache, we can instead just store these who values, reducing our space complexity to O(1).
+Great now we have elimated the need for recursion, but theres one more thing we can optimize, because we are only looking at the last 2 numbers, we only need to store these two values, reducing our space complexity to O(1).
 
 Wow what an adventure, we took a O(2<sup>n</sup>) time and a O(logn) space brute force approach, and converted it into a O(n) time and a O(1) space approach. 
 
