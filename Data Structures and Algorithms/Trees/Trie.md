@@ -6,6 +6,8 @@ To indicate the end of a sequence (or `word`), each node can store an boolean in
 
 Where there is an overlap with how sequences start, tries can reduce repeated storage. For example, `Cait`, `Can`, `Candy`, all start with `Ca`. It would be inefficent to store `Ca` multiple times. You can imagine over thousand of words, how this advantage could scale. This is one of the main advantages of using a trie. 
 
+One note of a trie, is the root does not conain the data.
+
 ## Search
 When searching for a sequnce, we can start at the root. For every index, we can see if our node contains that element, if it does we can move to that node. If it doesn't the sequence is not in the Trie. When we get to the last element of sequence, if that node is marked as the end of a sequence, the sequence has been found. If it is not marked as the end of a sequence, it is not in the trie.
 
