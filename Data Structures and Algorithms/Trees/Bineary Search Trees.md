@@ -1,6 +1,8 @@
 ![[BST 1.png]]
 
-A binary search tree is a [[Trees#Binary Tree|binary tree]] where at any given node, the left child is smaller than the node and the right child is bigger than the node. 
+A binary search tree is a [[Trees#Binary Tree|binary tree]] where at any given node, all left descendants are smaller than the node and all right descendants of child is bigger than the node. 
+
+This means that if a node is smaller than its parent, but bigger then its parent's parent, its an invalid binary search tree. 
 
 Binary search tree exploits the logic found in [[Binary Search|binary search]], and is basically binary search implimented into a datastructure. 
 
@@ -51,6 +53,9 @@ I have implimentented a deletion algorithm in the [[#Full example]] but I am not
 ### Complexity
 Time O(logn)
 Addition space O(1)
+
+## Balance
+Binary search trees can become unbalanced when items are inserted at inconvient orders, with a ascending or descending order being the worst case.
 
 ## Getting the order
 An inorder traversal of a binary search tree returns a traversal in order.

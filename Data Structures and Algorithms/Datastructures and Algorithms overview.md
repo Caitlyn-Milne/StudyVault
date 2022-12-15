@@ -30,7 +30,7 @@ A [[Queue]] appends items to the end but removes items from the front. This make
 Queues are frequently implimented using [[#Linked lists]] or a [[Dynamic List]] (using a [[Circular Buffer]])
 
 ## Deque
-A [[Deque]] can prepend / append or remove items from either the front or the lack. This means you can use a deque like either a queue or a stack
+A [[Deque]] can prepend / append or remove items from either the front or the back. This means you can use a deque like either a queue or a stack
 
 Deques are frequently implimented using [[Linked List]] or a [[Dynamic List]] (using a [[Circular Buffer]])
 
@@ -60,7 +60,7 @@ A [[Topological Ordering]] finds an ordering of a DAG where a vertex's parents m
 
 To find the shortest path between two nodes, theres a few different algorithms
 
-[[BFS shortest path]] can find the shortest path in an unweighted graph uses [[Breath-first Search|breath first search]] and says that the first time you find a node during BFS, that is the shortest path. 
+[[BFS shortest path]] can find the shortest path in an unweighted graph using [[Breath-first Search|breath first search]] and says that the first time you find a node during BFS, that is the shortest path. 
 
 [[DAG Relaxation]] is used for a weighted directed acyclic graph, and traverses a graph in a [[Topological Ordering]], relaxing a cost to a node with the best found cost so far. 
 
@@ -81,7 +81,7 @@ To merge two sorted collections, we take the lowest value of either collection, 
 This algorithm runs in O(nlogn), typically it uses O(n).
 
 ### Quick sort
-Another sorting algorithm is [[Quick Sort|quick sort]]. Quick sort works by partioning an array so that at a given pivot, so that any smaller elements are on the left, and any larger elements are on the right. 
+Another sorting algorithm is [[Quick Sort|quick sort]]. Quick sort works by partioning an array so that at a given pivot, any smaller elements are on the left, and any larger elements are on the right. 
 
 This algorithm runs in O(nlogn) on average, but can run as bad as O(n<sup>2</sup>), and uses O(logn) extra memory for recursive calls. 
 
@@ -102,7 +102,7 @@ A tree is considered balanced where the difference in height between their child
 A binary tree has a left and right node. 
 
 ### Binary Search Tree
-[[Bineary Search Trees]] turns [[#Binary Search]] into a datastructure. In a binary search tree, a nodes left child must be smaller, and a nodes right must be bigger. 
+[[Bineary Search Trees]] turns [[#Binary Search]] into a datastructure. In a binary search tree, a nodes left descendants must be smaller, and a nodes right descendants must be bigger. 
 
 To [[Bineary Search Trees#Searching|search]] for an item, if this node is equal to the target, we have found it, if smaller search left child, if bigger search right child. This takes O(logn) for a balanced tree, but can take O(n) if the tree is unbalanced.
 
@@ -125,16 +125,29 @@ Another key strength of the datastructure is reduces repeated space usage for se
 ## Heaps
 
 
+## Prefix sum
+[[Prefix Sum]] is the concept of storing the sum of previous elements in a datastructure. 
 
+Doing it in reverse is called a postfix sum, and gives the sum of future elements. 
+
+Combining a prefix and a postfix sum, you can get a sum of all elements apart from the current, useful when the inverse operation is unavaliable or slow. 
+
+It doesn't have to be a sum it can be a product, or any total value
 
 ## Backtracking
+[[Backtracking]] is the process of exploring every possibility of the descision tree. 
 
 ## Dynamic programming
+[[Dynamic programming]] applies the concept of storing the answers to subproblems, to solve other subproblems and the problem in general. 
+
+In memoisation we cache the results of subproblems during exploration of a decision tree, seen in [[#Backtracking]]. 
+
+From there we can look out how this memoisation array is built up, and build it up ourselves, removing the need for calls on the call stack. 
 
 ## Greedy
 
 ## Two pointers
 
-
+## Sliding window
 
 

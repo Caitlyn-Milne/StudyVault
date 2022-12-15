@@ -13,7 +13,7 @@ input: [4,2,5,3,6,1] k:4
 [5,3,6,1] 5 + 3 + 6 + 1 = 15
 ```
 
-But doing this we have to add k numbers for every subarray inside the input. This givens a [[Complexity|time complexity]] of O(nk) or sometimes refered to as O(n<sup>k</sup>)
+But doing this we have to add k numbers for every subarray inside the input. This givens a [[Complexity|time complexity]] of O(nk) or sometimes refered to as O(n<sup>2</sup>)
 
 Instead we can can start at the first subarray, and include the next item, and remove the last item. Doing this allows the majority of the comutation to stay the same.
 
