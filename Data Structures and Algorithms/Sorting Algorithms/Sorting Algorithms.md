@@ -1,4 +1,4 @@
-A sorting algorithm is an [[Algorithm|algorithm]] that orders a given [[Arrays|Array]] or collection based on given values.
+A sorting algorithm is an [[Algorithm|algorithm]] that orders a given [[Data Structures and Algorithms/Other Data Structures/Arrays|Array]] or collection based on given values.
 
 the unsorted array 3,1,5,2,3 becomes 1,2,3,3,5
 
@@ -15,7 +15,7 @@ In most languages you don't have to worry about implimentation details, because 
 
 ## In [[Kotlin]]
 Kotlin uses Javas implimentation of a sorting algorithm which is [[TimSort]]. 
-To sort an [[Arrays|Array]] or [[Dynamic List]] in kotlin you simply call sort, which sorts in place. 
+To sort an [[Data Structures and Algorithms/Other Data Structures/Arrays|Array]] or [[Dynamic List]] in kotlin you simply call sort, which sorts in place. 
 ```kt
 val array = intArrayOf(3,1,5,2,3)
 array.sort() //array = [1,2,3,3,5]

@@ -1,7 +1,7 @@
 Need a quick refresher, or need to know where to start. This page give a simplified explaination of the topics in datastructures and algorithms. 
 
 ## Arrays
-[[Arrays]] contain multiple items in consequtive spaces in memory. For objects it holds pointers in consequtive spaces instead.
+[[Data Structures and Algorithms/Other Data Structures/Arrays]] contain multiple items in consequtive spaces in memory. For objects it holds pointers in consequtive spaces instead.
 
 Arrays are of a predetermined size and cannot be changed after creation.
 

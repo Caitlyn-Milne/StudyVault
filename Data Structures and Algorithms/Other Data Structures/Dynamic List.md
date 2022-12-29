@@ -1,6 +1,6 @@
 A dynamic list, also known as an ArrayList (Java), MutableList (Kotlin),  List (C#), vector (C++), is a datastructure that holds a collection, but its size is dynamic and can be changed upon adding items to it. 
 
-Behind the scenes a list has an [[Arrays|array]], and a pointer to the current end of the list. 
+Behind the scenes a list has an [[Data Structures and Algorithms/Other Data Structures/Arrays|array]], and a pointer to the current end of the list. 
 
 When an item is added to the dynamic list, it is added in the next avaliable space towards the end of the list. If there is no space left, a resize occurs. 
 
@@ -72,7 +72,7 @@ fun removeAll_Set(list : MutableList<Int>, removeItems : MutableList<Int>){
 [open in playground](https://pl.kotl.in/W6bS6vrR8)
 
 ## Usage
-### In [[C Sharp]]
+### In [[CSharp]]
 In c sharp a dynamic list is called a `List`.
 ```cs
 //define a list

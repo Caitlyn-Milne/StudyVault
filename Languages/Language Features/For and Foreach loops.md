@@ -1,9 +1,9 @@
-A for loop allows for a block of code multiple times, frequently a for loop is used to iterate through a sequence such as [[Arrays]].
+A for loop allows for a block of code multiple times, frequently a for loop is used to iterate through a sequence such as [[Data Structures and Algorithms/Other Data Structures/Arrays]].
 
 Because of the frequency of using a for loop for iterating through a sequence, alot of languages support foreach, that runs the code block for each item in the sequence.
 
 ## For
-### In [[C Sharp|C#]] , [[C++]] and [[Java]]
+### In [[CSharp|C#]] , [[C++]] and [[Java]]
 
 In C# and C++ for loops are written the same way.
 
@@ -70,7 +70,7 @@ for (i in 10 downTo 0)
 
 ## Foreach
 
-### In [[C Sharp]]
+### In [[CSharp]]
 
 In C# we can use the foreach to iterate through anything that is `IEnumerable<T>`.
 

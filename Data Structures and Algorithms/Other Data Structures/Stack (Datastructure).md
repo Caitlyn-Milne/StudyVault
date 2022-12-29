@@ -2,7 +2,7 @@ A stack is a datastructure that follows a last in first out (LIFO). This means t
 
 [[Queue|Queues]] are simular to queues but follow a FIFO principle instead
 
-## In [[C Sharp]]
+## In [[CSharp]]
 In C# this is `Stack<T>` and you can add and remove items with Push, Pop, and Peek for seeing the next item
 
 ```cs

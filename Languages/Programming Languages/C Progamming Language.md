@@ -1,0 +1,1 @@
+C is a [[Programming Languages|programming language]] that compiles directly to [[Assembly Language]] and it used for low level systems where perform really matters because it has minium overhead. 

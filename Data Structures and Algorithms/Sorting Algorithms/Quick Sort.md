@@ -1,4 +1,4 @@
-Quick Sort is a [[Sorting Algorithms|sorting algorithm]] that is also a [[Divide and conquer algorithm|divide and conquer algorithm]] it works by selecting a pivot element from the collection (commonly an [[Arrays|array]]) and partitioning the other elements into two sub arrays that it can then recursively do the same on.
+Quick Sort is a [[Sorting Algorithms|sorting algorithm]] that is also a [[Divide and conquer algorithm|divide and conquer algorithm]] it works by selecting a pivot element from the collection (commonly an [[Data Structures and Algorithms/Other Data Structures/Arrays|array]]) and partitioning the other elements into two sub arrays that it can then recursively do the same on.
 
 ## The worst situation for quick sort
 The worst situation for quick sort is depending on how you are chosing the pivot to partition the collection. 

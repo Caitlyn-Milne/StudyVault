@@ -2,7 +2,7 @@ A queue is a datastructure that follows a first in first out (FIFO). This means 
 
 [[Stack (Datastructure)|Stacks]] are simular to queues but follow a LIFO principle instead
 
-## In [[C Sharp]]
+## In [[CSharp]]
 In C# this is `Queue<T>` and you can add and remove items with Enqueue, Dequeue, and Peek for seeing the next item
 
 ```cs
