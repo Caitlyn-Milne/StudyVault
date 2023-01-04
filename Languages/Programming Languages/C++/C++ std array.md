@@ -1,4 +1,4 @@
-C++'s `std::array` class is apart of [[C++ std|C++'s standard template library]] that provides abstraction of an underlying [[C++ static array (C style arrays)]], as well as providing key array functionality checking, as well as bound checking in debug enviroments. 
+C++'s `std::array` class is apart of [[C++ std library|C++'s standard template library]] that provides abstraction of an underlying [[C++ static array (C style arrays)]], as well as providing key array functionality checking, as well as bound checking in debug enviroments. 
 
 # Usage
 ## Definiting
@@ -39,7 +39,7 @@ int main()
 ```
 
 ## Sort
-There is a predefined sort algorithm provided in [[C++ std]] in the algorithms header file.
+There is a predefined sort algorithm provided in [[C++ std library]] in the algorithms header file.
 ```cpp
 #include <algorithm>
 int main()

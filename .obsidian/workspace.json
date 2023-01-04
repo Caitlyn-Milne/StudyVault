@@ -95,12 +95,28 @@
             "id": "cbb19ddf06462da4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Languages/Programming Languages/C#/CSharp Array.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e495ef9c29494361",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -166,6 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,6 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +221,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md"
+              }
             }
           }
         ],
@@ -224,17 +244,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbb19ddf06462da4",
+  "active": "e495ef9c29494361",
   "lastOpenFiles": [
-    "R.md",
-    "Languages/Programming Languages/C++/C++ static array (C style arrays).md",
+    "Languages/Programming Languages/C++/C++ std library.md",
     "Languages/Programming Languages/C++/C++ std array.md",
-    "Languages/Programming Languages/C++/C++ std.md",
     "Languages/Programming Languages/C++/C++.md",
-    "Languages/Programming Languages/C++/C++ Begin End.md",
-    "Data Structures and Algorithms/Sorting Algorithms/Sorting Algorithms.md",
-    "Frameworks and runtimes/React.md",
-    "Frameworks and runtimes/Dot Net.md",
-    "Frameworks and runtimes/JVM (java virtual machine).md"
+    "Languages/Programming Languages/Kotlin/Kotlin Array.md",
+    "Languages/Programming Languages/Kotlin/Kotlin.md",
+    "Languages/Programming Languages/C++/C++ static array (C style arrays).md",
+    "Languages/Programming Languages/C++/C++ List (Linked List).md",
+    "Languages/Programming Languages/C#/CSharp Array.md",
+    "R.md",
+    "Languages/Programming Languages/C++/C++ Begin End.md"
   ]
 }
