@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Programming Languages/Kotlin/Kotlin Array.md",
+                "file": "Languages and frameworks/Programming Languages/Kotlin/Kotlin Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Programming Languages/C++/C++ static array (C style arrays).md",
+                "file": "Languages and frameworks/Programming Languages/C++/C++ static array (C style arrays).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Programming Languages/C++/C++ static array (C style arrays).md",
+                "file": "Languages and frameworks/Programming Languages/C++/C++ static array (C style arrays).md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Programming Languages/C#/CSharp Array.md",
+                "file": "Languages and frameworks/Programming Languages/C#/CSharp Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,14 +109,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md",
+                "file": "Core definitions/Algorithm.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "176e98e32caa5ee0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Everything Video/Video formats/Dash.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -182,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md",
+                "file": "Everything Video/Video formats/Dash.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md",
+                "file": "Everything Video/Video formats/Dash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -222,7 +234,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/Programming Languages/C++/C++ List (Linked List).md"
+                "file": "Everything Video/Video formats/Dash.md"
               }
             }
           }
@@ -244,17 +256,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e495ef9c29494361",
+  "active": "7a1aa9cc30ae2ad1",
   "lastOpenFiles": [
-    "Languages/Programming Languages/C++/C++ std library.md",
-    "Languages/Programming Languages/C++/C++ std array.md",
-    "Languages/Programming Languages/C++/C++.md",
-    "Languages/Programming Languages/Kotlin/Kotlin Array.md",
-    "Languages/Programming Languages/Kotlin/Kotlin.md",
-    "Languages/Programming Languages/C++/C++ static array (C style arrays).md",
-    "Languages/Programming Languages/C++/C++ List (Linked List).md",
-    "Languages/Programming Languages/C#/CSharp Array.md",
-    "R.md",
-    "Languages/Programming Languages/C++/C++ Begin End.md"
+    "Core definitions/Algorithm.md",
+    "Languages and frameworks/Programming Languages/C++/C++ std array.md",
+    "Languages and frameworks/Programming Languages/C++/C++ std library.md",
+    "Languages and frameworks/Programming Languages/C++/C++ static array (C style arrays).md",
+    "Languages and frameworks/Programming Languages/C++/C++ List (Linked List).md",
+    "Languages and frameworks/Programming Languages/C++/C++.md",
+    "Languages and frameworks/Programming Languages/Kotlin/Kotlin Array.md",
+    "Languages and frameworks/Programming Languages/Kotlin/Kotlin.md",
+    "Languages and frameworks/Programming Languages/C#/CSharp Array.md",
+    "R.md"
   ]
 }
