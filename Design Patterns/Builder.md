@@ -1,0 +1,1 @@
+The builder [[Design Pattern]] is a design pattern that allows for seperation of construction of complex objects from their representation. 
