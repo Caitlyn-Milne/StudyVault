@@ -1,0 +1,1 @@
+A design pattern is a solution to a design problem that can be reapplied when said problem occurs.
