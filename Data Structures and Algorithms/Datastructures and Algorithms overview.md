@@ -1,7 +1,7 @@
-Need a quick refresher, or need to know where to start. This page give a simplified explaination of the topics in datastructures and algorithms. 
+Need a quick refresher, or need to know where to start. This page give a simplified explanation of the topics in data structures and algorithms. 
 
 ## Arrays
-[[Data Structures and Algorithms/Other Data Structures/Arrays]] contain multiple items in consequtive spaces in memory. For objects it holds pointers in consequtive spaces instead.
+[[Data Structures and Algorithms/Other Data Structures/Arrays]] contain multiple items in consecutive spaces in memory. For objects it holds pointers in consecutive spaces instead.
 
 Arrays are of a predetermined size and cannot be changed after creation.
 
