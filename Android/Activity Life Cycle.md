@@ -1,6 +1,6 @@
 As a user uses, leaves, and returns to your app, an [[Android Activity|activity]] transitions through various states. This is the activity lifecycle. 
 
-![[Pasted image 20240522235618.png]]
+![[Android Activity Lifecycle.png]]
 ## onCreate 
 Upon activity creation, onCreate is called. When creating an activity you must extend onCreate, and this is where your initialisation logic belongs.
 ## onStart
