@@ -2,6 +2,7 @@
 [[Android Fragment]]
 [[Android Services]]
 [[Android Notifications]]
+[[Killing a process]]
 [[Android Foreground services]]
 [[Activity Life Cycle]]
 [[Automated testing on android]]
